@@ -15,7 +15,7 @@ genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API_KEY"))
 database = "data.db"
 
 # Set model name
-model_name = "gemini-1.5-pro"
+model_name = "gemini-2.0-flash"
 
 
 ## Function to load google gemini model (responsible for giving the query as response)
